@@ -1,0 +1,37 @@
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+
+# Node modules & frontend artifacts
+node_modules/
+
+# Python bytecode, builds, and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Databases & local persistent biometric assets
+database/*.db
+database/*.sqlite
+database/*.sqlite3
+data/residents/*.jpg
+data/residents/*.jpeg
+data/residents/*.png
+data/snapshots/*.jpg
+data/snapshots/*.png
+
+# Deep learning weights & temporary models
+models/*.onnx
+models/*.h5
+.deepface/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
