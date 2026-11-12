@@ -3,6 +3,8 @@
 
 ---
 
+Deployed link - https://tanishqbhosle-face-recognition-system-app-dh4bfb.streamlit.app/
+
 ## 1. Project Overview
 
 The Smart Society Security System is a local, offline-first Python web application designed to assist security personnel at the entrance gate of a residential housing society. Using a standard laptop webcam, the system captures real-time video, detects faces, compares them against a database of registered residents using deep learning embeddings, and displays an immediate, color-coded access recommendation.
